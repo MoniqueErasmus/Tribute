@@ -1,0 +1,106 @@
+#main {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: #eee;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  min-width: 70px;
+  max-width: 800px;
+  padding-bottom: 1%;
+  overflow: hidden;
+  border-bottom: 2px solid #a9a9a9;
+  border-top: 1px solid #a9a9a9;
+}
+
+#img-caption {
+  color: #383a6b;
+}
+
+#title {
+  font-size: 5rem;
+}
+
+#side-t {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+#tribute-info {
+  display: block;
+  list-style-type: disc;
+  text-align: left;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  border-radius: 30px;
+}
+
+img {
+  border-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-radius: 30px;
+  transform: rotateY(180deg);
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#img-div {
+  max-width: 750px;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  border-bottom: 1px solid #a9a9a9;
+  margin: center;
+  box-sizing: border-box;
+}
+
+#closing-s {
+  display: block;
+  list-style-type: disc;
+  text-align: left;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  max-width: 700px;
+  margin: 0 auto 100px auto;
+  margin-left: auto;
+}
+
+hr {
+  background-color: #dcdcdc;
+  height: 1px;
+  border: 0;
+}
+
+a {
+  color: #4169e1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: url(https://i0.wp.com/elemenoweb.com/wp-content/uploads/2019/02/gray_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
